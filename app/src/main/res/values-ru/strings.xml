@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login">Войти</string>
+    <string name="password_reset">Сбросить пароль</string>
+    <string name="email">Электронная почта</string>
+    <string name="password">Пароль</string>
+    <string name="registration">Регистрация</string>
+    <string name="or">Или</string>
+    <string name="phone_number">Номер телефона</string>
+    <string name="user_name">Имя</string>
+
+    <string name="welcome">Приветствуем!</string>
+    <string name="notes_stickers">Заметки/стикеры</string>
+    <string name="books_documents">Книги/Документы</string>
+    <string name="text_saved">Текст был сохранен</string>
+    <string name="image_text">Ваш текст с изображения:</string>
+
+    <string name="error_message">При обработке вашей строки выяснилось, что она не соответствует орфографическим нормам. Возможно, язык вашего текста с изображения отличается от языка, указанного в настройках. Введите правильные данные и повторите попытку.</string>
+    <string name="load_message">Ваш текст загружается…</string>
+    <string name="no_internet">Пожалуйста, включите интернет чтобы использовать приложение</string>
+    <string name="instruction_point_one">– Выберите язык текста в счетчике\n– Выберите формат текста:</string>
+    <string name="important_instruction_message_one">\n"Заметки/наклейки"\nor\n"Книги/документы"\n</string>
+    <string name="instruction_point_two"> — Сфотографируйте свой текст или выберите изображение из галереи. Процесс запустится автоматически</string>
+    <string name="important_instruction_message_two">\nКачество распознавания напрямую зависит от правильности указаных вами настроек!\n</string>
+    <string name="notes_point">1. Заметки/стикеры"</string>
+    <string name="notes_description">Позволяет распознавать небольшие тексты, например, на рекламных щитах или дорожных знаках. Качество распознавания напрямую зависит от количества текста и расстояния между словами. Чем меньше расстояние, тем хуже результат.</string>
+    <string name="notes_point_two">2. Книги/Документы</string>
+    <string name="document_description">Предназначен для распознавания текстов из документов, книг, газет. Разделяет текст на абзацы и может работать с мелкими шрифтами. Также поддерживает распознавание рукописного ввода.</string>
+
+    <string name="document_mode">Режим распознавания документов включен</string>
+    <string name="notes_mode">Режим распознавания заметок включен</string>
+    <string name="work_with_image">Простите, возникла ошибка обработки сообщения</string>
+    <string name="went_wrong">Простите, что-то пошло не так!</string>
+    <string name="no_text">Текст на данном фото отсутствует!</string>
+    <string name="user_not_found">Пользователь не найден!</string>
+    <string name="firebase_error">Ошибка входа в Firebase!</string>
+    <string name="google_error">Ошибка входа при помощи Google!</string>
+    <string name="email_sent">Письмо отправлено</string>
+    <string name="invalid_email">Неправильный логин!</string>
+    <string name="invalid_password">Неправильный пароль!</string>
+    <string name="invalid_phone">Неправильный номер телефона!</string>
+    <string name="invalid_name">Неправильное имя пользователя!</string>
+    <string name="text_copied">Текст скопирован в буфер обмена!</string>
+    <string name="language">"Язык распознавания: "</string>
+
+    <string name="items_removed">Список очищен</string>
+    <string name="your_text_list">Список ваших текстов:</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListActivity"
+    android:theme="@style/MainLayout">
+
+    <TextView
+        android:id="@+id/page_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/your_text_list"
+        android:fontFamily="@font/raleway_bold"
+        android:textSize="26sp"
+        style="@style/TextColor"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/text_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/list_menu"
+        android:layout_below="@id/page_title"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="10dp"
+        tools:listitem="@layout/list_item" />
+
+    <LinearLayout
+        android:id="@+id/list_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:id="@+id/go_back"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:src="@drawable/go_back"/>
+
+        <ImageView
+            android:id="@+id/clear"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:src="@drawable/clear"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

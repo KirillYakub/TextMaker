@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name" translatable="false">TextMaker</string>
+    <string name="web_api_key" translatable="false">569006391849-qcemhnrmbvjk0tu4vp08kr9iiqadslun.apps.googleusercontent.com</string>
+
+    <string name="login">Log In</string>
+    <string name="password_reset">Reset password</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="registration">Sign Up</string>
+    <string name="or">Or</string>
+    <string name="phone_number">Phone number</string>
+    <string name="user_name">Name</string>
+    <string name="ok" translatable="false">OK</string>
+
+    <string name="welcome">Welcome!</string>
+    <string name="notes_stickers">Notes/Stickers</string>
+    <string name="books_documents">Books/Documents</string>
+    <string name="text_saved">Text was saved</string>
+    <string name="image_text">Your text from image:</string>
+
+    <string name="error_message">When processing your string it turned out that it does not meet spelling standards. Perhaps the language of your text from the image is different from the language specified in the settings. Please enter correct details and try again.</string>
+    <string name="load_message">Your text is loading…</string>
+    <string name="no_internet">Please, turn on your internet to use app</string>
+    <string name="instruction_point_one">- Select the language of your text from the spinner\n- Choose a format for your text:</string>
+    <string name="important_instruction_message_one">\n"Notes/Stickers"\nor\n"Books/Documents"\n</string>
+    <string name="instruction_point_two">- Make a photo of your text or get image from gallery. Process wil start automatically</string>
+    <string name="important_instruction_message_two">\nThe quality of recognition directly depends on the correctness of the settings you entered!\n</string>
+    <string name="notes_point">1. Notes/Stickers"</string>
+    <string name="notes_description">It allows you to recognize small texts, for example, on billboards or road signs. The quality of recognition directly depends on the amount of text and the distance between words. The shorter the distance, the worse the result.</string>
+    <string name="notes_point_two">2. Books/Documents</string>
+    <string name="document_description">It is designed to recognize texts from documents, books, newspapers. Divides text into paragraphs and can work with small fonts. Also supports handwriting recognition.</string>
+
+    <string name="document_mode">Document mode is on</string>
+    <string name="notes_mode">Notes mode is on</string>
+    <string name="work_with_image">Sorry! We can`t work with this image</string>
+    <string name="went_wrong">Sorry, something went wrong!</string>
+    <string name="no_text">There is no text on this photo!</string>
+    <string name="user_not_found">Sorry, user not found!</string>
+    <string name="firebase_error">Firebase input error!</string>
+    <string name="google_error">Error to Google sign in!</string>
+    <string name="email_sent">Email sent</string>
+    <string name="invalid_email">Invalid login!</string>
+    <string name="invalid_password">Invalid password!</string>
+    <string name="invalid_phone">Invalid phone number!</string>
+    <string name="invalid_name">Invalid username!</string>
+    <string name="text_copied">Text copied to clipboard!</string>
+    <string name="language">"Text config language is "</string>
+
+    <string name="items_removed">List was cleared</string>
+    <string name="your_text_list">Your texts list:</string>
+</resources>

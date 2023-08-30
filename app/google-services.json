@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "569006391849",
+    "project_id": "textrecognizer-k2303",
+    "storage_bucket": "textrecognizer-k2303.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569006391849:android:203edcb5895ae51fb9d238",
+        "android_client_info": {
+          "package_name": "com.example.textmaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569006391849-pf76tq5vued1o4npml7rcg0ncahgqbes.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZCYLWSoRWBvbTnY26lcNTYKzVdQh2GGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569006391849-pf76tq5vued1o4npml7rcg0ncahgqbes.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CropperActivity"
+    android:orientation="vertical"
+    style="@style/MainLayout">
+
+    <LinearLayout
+        android:id="@+id/up_font"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:elevation="10dp"
+        style="@style/MainMenuLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:elevation="10dp"
+            style="@style/UpMenuLayout">
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textSize="32sp"
+                android:text="@string/welcome"
+                android:fontFamily="@font/raleway_extrabold"
+                style="@style/TitleColor"/>
+
+            <ImageView
+                android:id="@+id/exit"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_margin="15dp"
+                android:layout_gravity="center"
+                style="@style/Exit"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginVertical="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="5dp"
+                android:padding="10dp"
+                android:elevation="5dp"
+                android:orientation="horizontal"
+                style="@style/DataLayout">
+
+                <ImageView
+                    android:id="@+id/camera"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/camera"/>
+
+                <ImageView
+                    android:id="@+id/gallery"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/gallery"/>
+
+            </LinearLayout>
+
+            <com.shawnlin.numberpicker.NumberPicker
+                android:id="@+id/lang_picker"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginVertical="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="5dp"
+                android:elevation="5dp"
+                app:np_orientation="horizontal"
+                app:np_dividerThickness="0dp"
+                app:np_selectedTextSize="32dp"
+                app:np_textSize="32dp"
+                app:np_textColor="@color/white"
+                app:np_selectedTextColor="@color/white"
+                app:np_wheelItemCount="3"
+                style="@style/PickerLayout"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/up_font"
+        android:layout_above="@id/instruction_layout"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/notes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="15dp"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            style="@style/WorkSpaceLayout">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/text"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="26sp"
+                android:fontFamily="@font/raleway_mediumitalic"
+                android:text="@string/notes_stickers"
+                android:gravity="center"
+                style="@style/TextColor"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/documents"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="5dp"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            style="@style/WorkSpaceLayout">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/document_text"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="26sp"
+                android:fontFamily="@font/raleway_mediumitalic"
+                android:text="@string/books_documents"
+                android:gravity="center"
+                style="@style/TextColor"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/instruction_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/instruction"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:src="@drawable/instruction"/>
+
+        <ImageView
+            android:id="@+id/list"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_weight="1"
+            android:src="@drawable/list"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.TextMaker" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="TextColor">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/dark_gray</item>
+    </style>
+    <style name="TitleColor">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="ImportantTextColor">
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="Close">
+        <item name="android:src">@drawable/close_day</item>
+    </style>
+    <style name="Exit">
+        <item name="android:src">@drawable/exit_day</item>
+    </style>
+
+    <style name="LineColor">
+        <item name="android:background">@color/black</item>
+    </style>
+    <style name="MainLayout">
+        <item name="android:background">@color/light_gray</item>
+    </style>
+    <style name="MainMenuLayout" parent="TextColor">
+        <item name="android:background">@drawable/menu_day</item>
+        <item name="android:drawableTint">@color/black</item>
+    </style>
+    <style name="PickerLayout" parent="TitleColor">
+        <item name="android:background">@drawable/picker_day</item>
+    </style>
+    <style name="UpMenuLayout">
+        <item name="android:background">@drawable/up_font_day</item>
+    </style>
+    <style name="DataLayout">
+        <item name="android:background">@drawable/main_menu_day</item>
+    </style>
+    <style name="InputLayout" parent="TextColor">
+        <item name="android:background">@drawable/input_day</item>
+    </style>
+    <style name="RegisterLayout">
+        <item name="android:background">@drawable/register_back_day</item>
+    </style>
+    <style name="TextMenuLayout">
+        <item name="android:background">@drawable/text_menu_day</item>
+    </style>
+    <style name="LogInBackground">
+        <item name="android:background">@drawable/login_back_day</item>
+    </style>
+    <style name="RegisterBackground" parent="TextColor">
+        <item name="android:background">@drawable/register_day</item>
+    </style>
+    <style name="WorkSpaceLayout" parent="MainLayout"/>
+
+</resources>
